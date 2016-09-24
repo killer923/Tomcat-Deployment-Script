@@ -5,4 +5,5 @@ When using in tomcat in windows, you get some basic functionalities added due to
 </ul>
 
 I missed the above 'features' when I moved to Linux based OS. So I started using this script to start tomcat.<br/><br/>
-Note that this script always starts the tomcat in debug mode with debug port at 8000.</br>
+
+Note to start the tomcat in debug mode at port 8000 add argument '-d'. 
