@@ -8,5 +8,8 @@ control_c(){
 
 trap control_c SIGINT
 
-sh startup.sh
+export JPDA_ADDRESS=8000
+export JPDA_TRANSPORT=dt_socket
+
+sh catalina.sh jpda start
 tail -f ../logs/catalina.out
